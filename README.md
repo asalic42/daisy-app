@@ -23,3 +23,5 @@ Sur la fin, j'ai voulu ajouter des touches de couleurs en fond, car le backgroun
 
 ## Deploy on Vercel
 
+Lien vers la demo Vercel:
+- https://daisy-app-rho.vercel.app/
