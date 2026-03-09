@@ -1,6 +1,6 @@
 [
   {
-    "picturePath": "./app/images/pottery.jpg",
+    "picturePath": "/images/pottery.jpg",
     "title": "Cours de poterie",
     "location": "Paris 11e",
     "price": 40,
