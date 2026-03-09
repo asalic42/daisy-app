@@ -1,36 +1,25 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Lancer le projet
+- docker compose up --build
+- http://localhost:3000
 
-## Getting Started
+## Pourquoi ce sujet ?
+J'ai fait le choix du sujet B car il me paraissait plus complet que les autres pour un entretien de Dev. Full-Stack. De plus, et d'un point de vue plus personnel, créer une page avec un élement réutilisable m'a plus attiré que de modifier du code ou de créer une feature.
 
-First, run the development server:
+## A propos du widget
+Le composant "RegisterActivity" représente un widget de type "Carte" regroupant toutes les informations sur un atelier proposé par un client.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Il prend en parametre deux éléments: 
+    - un type ActivityInfos, regroupant toutes les informations nécessaires sur l'atelier (image, titre, lieu, prix, date, places restantes);
+    - un type ColorsPanel, regroupant 4 couleurs pour que l'utilisateur puisse styliser chaque "Carte" en fonction de l'atelier.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Ce composant a été developpé pour que son utilisation soit la plus pratique possible, pour potentiellement l'implémenter autre part.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Pourquoi ce choix d'UI ?
+Le choix du design a ete plutot simple pour moi car je voulais rester dans les tons et les couleurs du site officiel Daisy, a savoir Violet, Creme et Corail. Ca m'a simplifié la tache, je l'admets, car le choix des couleurs est important pour une bonne experience utilisateur.
+Pour ce qui est de la mise en page, je ne me suis pas trop prise la tete, je suis restée sur du basique: un Carousel shadcn avec des cartes a l'interieur.
+Ce qui m'a le plus troublée, c'etait le responsive et les marges, car avec la configuration de Next.js, on ne part pas de 0... et c'est bien le probleme ! Donc j'ai eus un peu de mal avec les dimensions reduites et le style, oui.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Sur la fin, j'ai voulu ajouter des touches de couleurs en fond, car le background creme fait un peu vide, mais j'ai changé d'avis car mes essais etaient pour le moins... perturbants :/
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
