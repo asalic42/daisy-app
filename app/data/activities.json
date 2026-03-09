@@ -1,0 +1,42 @@
+[
+  {
+    "picturePath": "./app/images/pottery.jpg",
+    "title": "Cours de poterie",
+    "location": "Paris 11e",
+    "price": 40,
+    "date": "2026-04-10",
+    "places_left": 5
+  },
+  {
+    "picturePath": "/images/cooking.jpg",
+    "title": "Atelier cuisine italienne",
+    "location": "Paris 5e",
+    "price": 55,
+    "date": "2026-04-12",
+    "places_left": 3
+  },
+  {
+    "picturePath": "/images/painting.png",
+    "title": "Initiation à la peinture",
+    "location": "Paris 18e",
+    "price": 30,
+    "date": "2026-04-15",
+    "places_left": 8
+  },
+  {
+    "picturePath": "/images/yoga.jpg",
+    "title": "Session yoga au parc",
+    "location": "Bois de Vincennes",
+    "price": 20,
+    "date": "2026-04-18",
+    "places_left": 10
+  },
+  {
+    "picturePath": "/images/photography.jpg",
+    "title": "Balade photo urbaine",
+    "location": "Montmartre",
+    "price": 35,
+    "date": "2026-04-20",
+    "places_left": 6
+  }
+]
