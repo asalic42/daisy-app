@@ -5,7 +5,8 @@
     "location": "Paris 11e",
     "price": 40,
     "date": "2026-04-10",
-    "places_left": 5
+    "places_left": 5,
+    "hours": ["10h00", "14h00", "16h00"]
   },
   {
     "picturePath": "/images/cooking.jpg",
@@ -13,7 +14,8 @@
     "location": "Paris 5e",
     "price": 55,
     "date": "2026-04-12",
-    "places_left": 3
+    "places_left": 3,
+    "hours": ["11h00", "12h00", "13h00"]
   },
   {
     "picturePath": "/images/painting.png",
@@ -21,7 +23,8 @@
     "location": "Paris 18e",
     "price": 30,
     "date": "2026-04-15",
-    "places_left": 8
+    "places_left": 8,
+    "hours": ["14h00", "15h00", "16h00"]
   },
   {
     "picturePath": "/images/yoga.jpg",
@@ -29,7 +32,8 @@
     "location": "Bois de Vincennes",
     "price": 20,
     "date": "2026-04-18",
-    "places_left": 10
+    "places_left": 10,
+    "hours": ["19h00", "20h30", "22h00"]
   },
   {
     "picturePath": "/images/photography.jpg",
@@ -37,6 +41,7 @@
     "location": "Montmartre",
     "price": 35,
     "date": "2026-04-20",
-    "places_left": 6
+    "places_left": 6,
+    "hours": ["15h30", "17h30", "19h00"]
   }
 ]
