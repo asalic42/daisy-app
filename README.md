@@ -29,3 +29,4 @@ J'ai pris pas mal de retard avec l'installation de NextJs sur mon pc personnel..
 
 Lien vers la demo Vercel:
 - https://daisy-app-rho.vercel.app/
+

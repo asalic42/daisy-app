@@ -74,7 +74,6 @@ export default function RegisterActivity({activityInfos, colors}: ActivityProps)
                     </div>
 
                     <div className="flex flex-1 flex-col p-2 gap-6 max-sm:gap-4">
-
                         <div className={`flex flex-col h-full text-[${colors.secondaryColor}]`}>
                             <p>📍{activityInfos.location}</p>
                             <p>🪙 {activityInfos.price}€</p>
